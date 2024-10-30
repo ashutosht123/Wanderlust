@@ -1,0 +1,318 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.navbar-brand{
+    font-size: 50px !important;
+}
+.nav-link{
+    font-size: 27px !important;
+    margin-left: 15px;
+    color: #222222 !important;
+}
+.fa-compass{
+    color: #fe424d;
+}
+.navbar{
+    background-color: white !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: #222222;
+}
+.f-info{
+    text-align: center;
+    height: 14rem;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-evenly;
+
+    /* bottom: 0; */
+    /* position: fixed; */
+    /* width: 100%; */
+}
+.row{
+   gap: 35px;
+} 
+
+
+.container{
+    max-width: 90% !important;
+    margin-left: 7.5rem !important;
+    flex: 1;
+}
+
+.f-info-links{
+    font-size: 25px;
+    width: 100%;
+}
+.f-info-socials{
+    margin-top: 15px;
+    font-size: 27px;
+    width: 100%;
+}
+.copyright{
+    font-size: 25px;
+}
+fooetr{
+    position: fixed;
+    bottom: 0;
+    max-width: 100%;
+}
+.card-text{
+    font-size: 25px;
+    color: #222222;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.review-card{
+    margin-left: 5rem !important;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text{
+    font-weight: 400 !important;
+    font-style: italic !important;
+}
+.listing-link{
+    text-decoration: none;
+    margin: 0 !important;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.btn{
+    width: 130px;
+    height: 50px;
+    margin-left: 27rem;
+    margin-bottom: 1rem;
+    border-radius: 10px !important;
+    font-size: 25px !important;
+    background-color:  #fe424d !important;
+    border-color: #fe424d !important;
+}
+.form-label{
+    font-size: 25px !important;
+}
+.show-img{
+    height: 30vh;
+}
+.btn-dark{
+    padding: 0% !important;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+}
+.btn-edit{
+    background-color:  #222222 !important;
+    border: #222222 !important; 
+    padding-top: 5px !important;
+
+}
+.btn-delete{
+    margin-left: 0px !important;
+}
+.listing-details{
+    font-size: 30px;
+}
+.row-show{
+    margin-top: 1rem !important;
+}
+.flash-msg{
+    font-size: 25px !important;
+}
+#map { 
+    height: 600px; 
+    width: 100vh;
+}
+.search-bar{
+    margin-left: 17rem !important;
+    margin-top: 1rem !important;
+}
+.searach-result{
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 1880px) {
+    /* .copyright{
+        font-size: 17px;
+    }
+    .f-info-socials{
+        font-size: 21px;
+    }
+    .f-info-links{
+        font-size: 17px;
+    }
+    .f-info{
+        text-align: center;
+        height: 10rem;
+        display: flex;
+        background-color: #ebebeb;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: space-evenly;
+    } */
+    .container{
+        /* max-width: 100% !important; */
+        margin-left: 9rem !important;
+    }
+    .card{
+        width: 28.5rem !important;
+    }
+    .row{
+        margin-top: 1rem !important;
+        gap: 45px;
+     } 
+     .navbar-brand{
+        font-size: 40px !important;
+    }
+    .nav-link{
+        font-size: 27px !important;
+        margin-left: 15px;
+        color: #222222 !important;
+    }
+    .navbar{
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+    }
+    .btn{
+        margin-left: 270px !important;
+        margin-bottom: 1rem;
+        border-radius: 10px !important;
+        font-size: 25px !important;
+    }
+    .col-6{
+        width: 950px !important;
+        margin-left: 18rem !important;
+    }
+    .btn-edit{
+        margin-left: 38% !important;
+    }
+    .btn-delete{
+        margin-left: 0% !important;
+    }
+    .btn-edit-page{
+        margin-left: 23rem !important;
+    }
+    .btn-new-page{
+        margin-left: 23.5rem !important;
+    }
+    .review-card-col{
+        width: 780px !important;
+    }
+    #map { 
+        height: 600px; 
+        width: 75vh;
+    }
+    .search-bar{
+        margin-left: 9rem !important;
+        margin-top: 1rem !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container{
+        /* max-width: 100% !important; */
+        margin-left: 1.2rem !important;
+    }
+    .card-text{
+        font-size: 20px;
+        color: #222222;
+    }
+    .card-img-top{
+        height: 25rem;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        margin-left: 110px !important;
+        margin-bottom: 1rem;
+        border-radius: 10px !important;
+        font-size: 20px !important;
+    }
+    .new-row{
+        offset: 0 !important; 
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+    .offset-3{
+        margin-left: 0px !important;
+    }
+    .col-6{
+        width: 350px !important;
+    }
+    .row-show{
+        margin-left: 10px !important;
+    }
+    .btn-edit{
+        margin-left: 17% !important;
+        width: 100px !important;
+    }
+    .btn-delete{
+        margin-left: 0% !important;
+    }
+    .btn-new-page{
+        margin-left: 7.5rem !important;
+    }
+    .copyright{
+        font-size: 17px;
+    }
+    .f-info-socials{
+        font-size: 21px;
+    }
+    .f-info-links{
+        font-size: 17px;
+    }
+    .f-info{
+        text-align: center;
+        height: 10rem;
+        display: flex;
+        background-color: #ebebeb;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: space-evenly;
+    }
+    .review-card{
+        margin-left: 0px !important;
+    }
+    .flash-msg{
+        font-size: 15px !important;
+    }
+    #map { 
+        height: 600px; 
+        width: 35vh;
+    }
+    .pre-img{
+        width: 350px;
+    }
+    .search-bar{
+        margin-left: 1rem !important;
+    }
+    .search-bar input{
+        width: 260px !important;
+    }
+    .btn-search{
+        width: 110px !important;
+    }
+
+  }

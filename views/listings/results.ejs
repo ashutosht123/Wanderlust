@@ -1,0 +1,22 @@
+<% layout("/layouts/boilerplate") %>
+<div class="searach-result">
+<h2>Search results!</h2>
+</div>
+<div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 mt-3">
+    <% for(let listing of allListings){ %>
+        <div class="card listing-card" style="width: 30rem;">
+          <a href="/listings/<%= listing._id %>" class="listing-link">
+            <img src="<%= listing.image.url %>" class="card-img-top" height="500rem" alt="Listing_img">
+            <div class="card-img-overlay"></div>
+            <div class="card-body">
+              <p class="card-text">
+                <b><%= listing.title %></b> <br>
+                &#8377;<%= listing.price.toLocaleString("en-IN") %>/night
+                <i class="tax-info">&nbsp;&nbsp; +18% GST</i>
+              </p>
+            </div>
+          </a>
+          </div>
+          <% } %>
+</div>
+

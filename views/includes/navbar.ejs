@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top py-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/listings"><i class="fa-regular fa-compass"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="/listings">Home</a>
+          <a class="nav-link" href="/listings">All Listings</a>
+          <a class="nav-link" href="/listings/new">Add New Listings</a>
+        </div>
+        <div class="navbar-nav search-bar">
+          <form class="d-flex needs-validation" role="search" action="/listings/results" method="GET" novalidate >
+            <input style="height: 50px; width: 500px" class="form-control me-2 search-input" type="text" id="searchInput" name="title" placeholder="Search Destinations" aria-label="Search" required>
+            <button onclick="performSearch()" class="btn btn-search ms-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+          </form>
+          <div class="invalid-feedback">Price should be valid</div>
+        </div>
+        <div class="navbar-nav ms-auto">
+          <% if(!currUser) { %>
+          <a class="nav-link" href="/signup">Sign up</a>
+          <a class="nav-link" href="/login">Log In</a>
+          <% } %>
+          <% if(currUser) { %>
+          <a class="nav-link" href="/logout">Log out</a>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </nav>
