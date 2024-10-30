@@ -1,3 +1,6 @@
+
+@media only screen and (max-width: 3880px) {
+
 body{
     background-color: antiquewhite;
     display: flex;
@@ -153,6 +156,7 @@ fooetr{
 }
 .searach-result{
     margin-top: 1rem;
+}
 }
 @media only screen and (max-width: 1880px) {
     /* .copyright{
