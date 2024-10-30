@@ -5,6 +5,12 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
+
+html {
+    transform: scale(0.67); /* 67% scaling */
+    transform-origin: top left;
+}
+
 .navbar-brand{
     font-size: 50px !important;
 }
