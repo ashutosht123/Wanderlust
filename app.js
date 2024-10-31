@@ -46,6 +46,10 @@ app.use(methodOverride("_method"))
 app.engine('ejs', ejsMate);
 app.use(express.static(path.join(__dirname,"/public")))
 
+app.get("/", (req, res) => {
+  res.redirect("listings/index.ejs"); // or `res.render("home");` if you have a homepage view
+});
+
 // app.get("/",(req,res)=>{
 //       res.send("hii, im root");
 //  })
