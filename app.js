@@ -47,7 +47,7 @@ app.engine('ejs', ejsMate);
 app.use(express.static(path.join(__dirname,"/public")))
 
 app.get("/", (req, res) => {
-  res.redirect("/listings");
+  res.redirect("https://wanderlust-6o6k.onrender.com/listings");
 });
 
 // app.get("/",(req,res)=>{
