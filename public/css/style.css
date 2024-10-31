@@ -6,10 +6,10 @@ body{
     min-height: 100vh;
 }
 
-html {
+/* html {
     transform: scale(0.67); 
     transform-origin: top left;
-}
+} */
 
 .navbar-brand{
     font-size: 50px !important;
