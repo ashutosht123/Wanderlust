@@ -47,7 +47,7 @@ app.engine('ejs', ejsMate);
 app.use(express.static(path.join(__dirname,"/public")))
 
 app.get("/", (req, res) => {
-  res.redirect("listings/index.ejs"); // or `res.render("home");` if you have a homepage view
+  res.redirect("/listings");
 });
 
 // app.get("/",(req,res)=>{
