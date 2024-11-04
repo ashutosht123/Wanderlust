@@ -87,7 +87,7 @@ Wanderlust is a full-stack web application developed using the MERN stack (Mongo
 
 ## Usage
 
-- Visit the [live demo](https://wanderlust-hjuu.onrender.com) to explore the application.  
+- Visit the [live demo](https://wanderlust-6o6k.onrender.com) to explore the application.  
 - Register or log in to your account.  
 - Browse and search for vacation rentals.  
 - View detailed information about properties.  
