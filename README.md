@@ -4,9 +4,7 @@ Wanderlust is a MERN stack project inspired by Airbnb, providing a platform for 
 ![Screenshot 2024-08-10 113206](https://github.com/user-attachments/assets/a15b5fd0-6307-42bf-b5f1-4785397304b6)
 
 ## Note: 
-1.When you click on the link above, you will be redirected to the Wanderlust website, which may show a "Page Not Found" error below the navbar. To navigate the site, click on "Explore," complete the signup or login process, and then try adding new listings.
-
-2.While adding new listing add location only in this format, eg. Location : "Goa, India"
+1.While adding new listing add location only in this format, eg. Location : "Goa, India"
 
 ![Screenshot 2024-08-10 113328](https://github.com/user-attachments/assets/9b17bf8f-ca00-4ace-ba31-85027bb0ef33)
 ## Description
