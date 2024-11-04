@@ -42,16 +42,23 @@ Wanderlust is a full-stack web application developed using the MERN stack (Mongo
      npm install express
      npm install mongoose
      npm install path
+     npm i ejs
+     npm install -g nodemon
      npm install method-override
      npm install ejs-mate
      npm install dotenv
      npm install express-session
      npm install connect-mongo
+     npm install cookie-parser
      npm install connect-flash
      npm install passport
      npm install passport-local
+     npm install passport-local-mongoose
+     npm i multer
+     npm i dotenv 
      npm install cloudinary
      npm install multer-storage-cloudinary
+     npm I connect-mongo 
      npm install @mapbox/mapbox-sdk
     ```
 
